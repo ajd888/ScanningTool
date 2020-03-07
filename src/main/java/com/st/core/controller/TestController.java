@@ -18,7 +18,7 @@ public class TestController
     @Autowired
     private UserService userService;
 
-    @GetMapping("/test1")
+    @GetMapping("/test")
     public Test test() {
         return userService.getTest();
     }
